@@ -16,9 +16,9 @@ jobs:
               uses: actions/setup-node@v2-beta
               with:
                 node-version: '12'
-            -name: Setup Surge
+            - name: Setup Surge
               run: npm install --global surge
-            -name: Execute Deployement With Surge
+            - name: Execute Deployement With Surge
               run: surge ./ Bootcamp-2020-project001_AshadBK.surge.sh --token ${{ secrets.Bootcamp-2020-project001_surge_token}}
               
 ...
