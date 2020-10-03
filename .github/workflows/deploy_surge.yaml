@@ -1,10 +1,10 @@
 ---
-name: Deploy Website With Surge
+name: Deploy Website with Surge
 
 on:
     push:
         branches:
-            - master
+            - main
 
 jobs:
     build:
