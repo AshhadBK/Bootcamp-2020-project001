@@ -19,6 +19,6 @@ jobs:
             - name: Setup Surge
               run: npm install --global surge
             - name: Execute Deployement With Surge
-              run: surge ./ Bootcamp-2020-project001_AshadBK.surge.sh --token ${{ secrets.BOOTCAMP_SURGE_TOKEN}}
+              run: surge ./ project001_AshadBK.surge.sh --token ${{ secrets.BOOTCAMP_SURGE_TOKEN}}
               
 ...
